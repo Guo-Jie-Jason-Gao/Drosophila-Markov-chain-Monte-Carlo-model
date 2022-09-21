@@ -1,0 +1,38 @@
+IC                                                # name of IC
+46000                                             # num_skip_seed
+3                                                 # IC_idx
+70000                                             # warmup_period
+2                                                 # movie_switch
+config_a6d0_b2.5d2_c1d0_type1_affrate1.0_t1       # name of output file
+100                                               # movie_cycle_idx_skip
+140000                                            # movie_cycle_idx_max
+info_a6d0_b2.5d2_c1d0_type1_affrate1.0_t1         # info file
+1.d-2                                           # dt_sigma1
+0.5d0                                           # gamman_sigma1
+1.1d0                                           # list_range
+1                                    ### invagination_type (change: 0/1/2/3)
+0.075d0                              # active_zone_range (change: 0.25/0.50)
+0.20                                 # constriction_rate
+0.90                                 # stepwise_constriction_rate
+0                                    ### pbc_y_switch      (change: 0:off/1:on)
+1.4                                  # ranrlist
+1.1                                  # Rratio
+3                                    # tot_deform_p
+0.4d0                                # tot_deform_cut
+6.d0                                 # alpha
+2.5d2                                # beta
+1.d0                                 # cut
+1                                    # normalize_switch
+0.464676666123761d0                  # ave_single_deform
+0                                    # try_more_switch
+0.150d0                              # top_bdry
+-0.150d0                             # bottom_bdry
+2.000d0                              # bdry_y_thick (an empirical value)
+200.d0                               # spring_k
+-0.075d0                             # affected_left_bdry
+0.075d0                              # affected_right_bdry
+1.0d0                                # affected_rate
+1.d-2                                # MC_step_size
+1                                    # num_MC_step
+1.d0                                 # enrg_alpha
+6.666666666666666d1                  # enrg_beta
