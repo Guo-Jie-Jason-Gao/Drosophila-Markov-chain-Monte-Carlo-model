@@ -1,7 +1,7 @@
 # Drosophila-Markov-chain-Monte-Carlo-model
 Code for our manuscript "A Markov chain Monte Carlo model of
 mechanical-feedback-driven progressive
-apical constrictions captures the  uctuating
+apical constrictions captures the fluctuating
 collective cell dynamics in the Drosophila embryo" 
 by Guo–Jie J. Gao, Michael C. Holcomb, Jeffrey H. Thomas, and Jerzy Blawzdziewicz.
 
